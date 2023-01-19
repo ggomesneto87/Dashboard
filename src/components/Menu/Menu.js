@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./css/Menu.css";
 
@@ -10,9 +11,16 @@ const Menu = () => {
     links.push(<div className="menu-link">{items[i]}</div>);
   }
 
-  return <div className="menu-wrapper">
-    <div className="logo">Logo</div>
-    {links}</div>;
+  return (
+    <div className="menu-wrapper">
+      <div className="logo">
+        Empresa do Ze
+        <i class="fa-solid fa-right-to-bracket icon"></i>
+      </div>
+      <div className="signIn">Sign In</div>
+      {links}
+    </div>
+  );
 };
 
 export default Menu;
