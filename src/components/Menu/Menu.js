@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./css/Menu.css";
+import logo from "../Images/logo-no-bd.png"
 
 const Menu = () => {
   const items = ["Home", "About Us", "Login"];
@@ -12,12 +13,11 @@ const Menu = () => {
 
   return (
     <div className="menu-wrapper">
-      <div className="logo">
-        Empresa do Ze
-        <i class="fa-solid fa-right-to-bracket icon"></i>
+      <div className="logo-wrapper">
+        <img src={logo} className="logo-img"></img>
       </div>
       <div className="signIn">Sign In</div>
-      {links}
+      <div className="link-wrapper">{links}</div>
     </div>
   );
 };
