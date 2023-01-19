@@ -6,7 +6,9 @@
 .logo-img {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 80%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .icon {
@@ -15,15 +17,17 @@
 
 .logo-wrapper {
     position: absolute;
-    left: 20px;
+    left: 0px;
     width: 100px;
-    height: 100px;
+    height: 100%;
 }
 
 .signIn {
     border: 2px solid lightgrey;
     position: absolute;
     right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
     padding: 1vw;
     border-radius: 15px;
     font-weight: bold;
@@ -31,17 +35,18 @@
 }
 
 .menu-wrapper {
-    width: 70%;
-    border-bottom: 1px solid black;
+    width: 100%;
+    border-bottom: 1.5px solid rgb(100, 99, 99);
     min-height: 80px;
     height: 80px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .link-wrapper {
     width: 50%;
-    
+
     position: relative;
     display: flex;
     justify-content: space-evenly;
