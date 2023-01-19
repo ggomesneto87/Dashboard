@@ -15,8 +15,9 @@ const Menu = () => {
     <div className="menu-wrapper">
       <div className="logo-wrapper">
         <img src={logo} className="logo-img"></img>
+        <span className="logo-name">Dashboard</span>
       </div>
-      <div className="signIn">Sign In</div>
+      <div className="sign-in">Sign Up</div>
       <div className="link-wrapper">{links}</div>
     </div>
   );

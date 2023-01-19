@@ -1,14 +1,26 @@
 .menu-link, .signIn, .logo-wrapper {
     font-family: 'Sofia Sans', sans-serif;
     font-weight: 300;
+    font-size: medium
 }
 
 .logo-img {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    display: flex;
+    width: 50%;
     height: 80%;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.logo-name {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-weight: bold;
+    font-size: small;
 }
 
 .icon {
@@ -18,26 +30,26 @@
 .logo-wrapper {
     position: absolute;
     left: 0px;
-    width: 100px;
-    height: 100%;
+    width: 15%;
+    height: 85%;
 }
 
-.signIn {
+.sign-in {
     border: 2px solid lightgrey;
     position: absolute;
     right: 5px;
     top: 50%;
     transform: translateY(-50%);
-    padding: 0.8vw;
-    border-radius: 15px;
-
+    padding: 1vw;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .menu-wrapper {
     width: 100%;
     border-bottom: 1.5px solid rgb(100, 99, 99);
-    min-height: 80px;
-    height: 80px;
+    min-height: 10vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     position: relative;
@@ -45,7 +57,6 @@
 
 .link-wrapper {
     width: 50%;
-
     position: relative;
     display: flex;
     justify-content: space-evenly;

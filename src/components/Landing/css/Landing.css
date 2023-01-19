@@ -1,7 +1,7 @@
 .landing-wrapper {
     width: 90%;
     min-height: 98vh;
+    height: 98vh;
     background-color: rgba(244, 241, 235, 255);
-    justify-content: center;
-    display: flex;
+    position: relative;
 }

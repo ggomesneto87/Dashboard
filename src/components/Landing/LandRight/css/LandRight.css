@@ -1,0 +1,56 @@
+.land-right-wrapper {
+    position: relative;
+    border-right: 1.5px solid rgb(100, 99, 99);
+    width: 50%;
+    height: 90vh;
+}
+
+.land-right-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 80%;
+    height: 60%;
+    transform: translate(-50%, -30%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hero-title {
+    position: relative;
+    font-size: 350%;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1em;
+    width: 70%;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.sub-title {
+    position: relative;
+    width: 70%;
+    line-height: 1.4em;
+    color: rgb(129, 129, 129);
+    font-size: 90%;
+    font-family: 'Sofia Sans', sans-serif;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cta-btn {
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    border-radius: 10px;
+    font-weight: bolder;
+    left: 50%;
+    padding: 0.5em;
+    transform: translateX(-50%);
+}
