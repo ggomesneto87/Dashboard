@@ -4,4 +4,9 @@
     height: 98vh;
     background-color: rgba(244, 241, 235, 255);
     position: relative;
+    overflow: hidden;
+}
+
+.text-wrapper {
+    display: flex;
 }

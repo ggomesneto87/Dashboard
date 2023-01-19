@@ -1,0 +1,40 @@
+/* WRAPPERS */
+
+.land-left-wrapper {
+    position: relative;
+    width: 50%;
+    height: 85vh;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.land-left-img {
+  width: 80%;
+  height: 80%;
+  position: relative;
+}
+.img-left-wrapper {
+  
+}
+
+.land-left-text {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  justify-content: center;
+  font-family: 'Sofia Sans', sans-serif;
+  color: rgb(129, 129, 129);
+  font-size: 120%;
+  padding-left: 50px;
+  
+}
+
+.left-text {
+  border-top: 1px solid rgb(129, 129, 129);
+  margin-top: 30px;
+  padding-top: 10px;
+}

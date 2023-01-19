@@ -4,9 +4,10 @@
     position: relative;
     border-right: 1.5px solid rgb(100, 99, 99);
     width: 50%;
-    height: 90vh;
+    height: 85vh;
     display: flex;
     align-items: center;
+    flex: 1
 }
 
 /* ----- */
@@ -94,6 +95,7 @@
         border-right: none;
         border-bottom: 1.5px solid rgb(100, 99, 99);
         top: 0%;
+        align-items: initial;
     }
 
     .hero-title {
