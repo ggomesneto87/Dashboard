@@ -1,21 +1,24 @@
 .landing-wrapper {
     width: 90%;
-    min-height: 740px;
-    height: 98vh;
-    background-color: rgba(244, 241, 235, 255);
+    overflow: hidden;
     position: relative;
-    
+    display: inline-block;
+    background-color: rgba(244, 241, 235, 255);
+
 }
 
 .text-wrapper {
+    position: relative;
     display: flex;
+    height: 100%;
+    min-height: 800px;
 }
 
 /*///////////*/
 
 
-@media screen and (max-width: 830px) {
+/* @media screen and (max-width: 830px) {
     .text-wrapper {
         display: inline-block;
     }
-}
+} */

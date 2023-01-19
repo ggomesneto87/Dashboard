@@ -4,7 +4,6 @@
     position: relative;
     border-right: 1.5px solid rgb(100, 99, 99);
     width: 50%;
-    height: 85vh;
     display: flex;
     align-items: center;
     flex: 1
@@ -72,7 +71,7 @@
 /* ----- */
 
 /* Responsive */
-@media screen and (max-width: 1107px) {
+/* @media screen and (max-width: 1107px) {
     .hero-title {
         width: 80%;
     }
@@ -129,4 +128,4 @@
     .sub-title {
         width: 100%;
     }
-}
+} */

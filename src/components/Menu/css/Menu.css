@@ -9,7 +9,7 @@
 .menu-wrapper {
     width: 100%;
     border-bottom: 1.5px solid rgb(100, 99, 99);
-    min-height: 10vh;
+    min-height: 100px;
     height: 10vh;
     display: flex;
     justify-content: center;

@@ -2,7 +2,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   background-color: rgba(244, 241, 235, 255);
   height: 100vh;
+  min-height: 800px;
 }
