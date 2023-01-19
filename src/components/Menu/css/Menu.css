@@ -4,6 +4,16 @@
     font-size: medium
 }
 
+.menu-link:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sign-in:hover {
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
 .logo-img {
     position: absolute;
     display: flex;
