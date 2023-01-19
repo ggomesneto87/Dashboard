@@ -1,3 +1,5 @@
+/* Wrappers */
+
 .land-right-wrapper {
     position: relative;
     border-right: 1.5px solid rgb(100, 99, 99);
@@ -6,6 +8,10 @@
     display: flex;
     align-items: center;
 }
+
+/* ----- */
+
+/* General Info */
 
 .land-right-text {
     display: inline-block;
@@ -62,6 +68,9 @@
 
 }
 
+/* ----- */
+
+/* Responsive */
 @media screen and (max-width: 1107px) {
     .hero-title {
         width: 80%;
