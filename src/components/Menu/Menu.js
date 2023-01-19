@@ -4,7 +4,7 @@ import "./css/Menu.css";
 import logo from "../Images/logo-no-bd.png";
 
 const Menu = () => {
-  const items = ["Home", "About Us", "Login"];
+  const items = ["Product", "Pricing", "Documentation"];
   let links = [];
 
   for (let i = 0; i < items.length; i++) {
