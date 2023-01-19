@@ -3,18 +3,19 @@
     border-right: 1.5px solid rgb(100, 99, 99);
     width: 50%;
     height: 90vh;
+    display: flex;
+    align-items: center;
 }
 
 .land-right-text {
-    position: absolute;
-    top: 40%;
-    left: 50%;
+    display: inline-block;
     width: 80%;
     height: 60%;
-    transform: translate(-50%, -30%);
     display: grid;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-title {
@@ -23,9 +24,9 @@
     font-family: 'Noto Sans', sans-serif;
     line-height: 1em;
     width: 70%;
-    top: 0%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
 }
 
 .sub-title {
@@ -35,9 +36,8 @@
     color: rgb(129, 129, 129);
     font-size: 90%;
     font-family: 'Sofia Sans', sans-serif;
-    left: 50%;
-    transform: translateX(-50%);
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cta-btn {
@@ -48,10 +48,18 @@
     width: 30%;
     border-radius: 10px;
     font-weight: bolder;
-    left: 50%;
     padding: 0.5em;
-    transform: translateX(-50%);
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 3px solid black;
+}
+
+.cta-btn:hover {
+    transform-origin: center;
+    transition: all 1s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+
 }
 
 @media screen and (max-width: 1107px) {
