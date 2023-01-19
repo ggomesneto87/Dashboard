@@ -10,7 +10,9 @@ const Menu = () => {
     links.push(<div className="menu-link">{items[i]}</div>);
   }
 
-  return <div className="menu-wrapper">{links}</div>;
+  return <div className="menu-wrapper">
+    <div className="logo">Logo</div>
+    {links}</div>;
 };
 
 export default Menu;
