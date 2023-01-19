@@ -71,7 +71,7 @@
 /* ----- */
 
 /* Responsive */
-/* @media screen and (max-width: 1107px) {
+@media screen and (max-width: 1107px) {
     .hero-title {
         width: 80%;
     }
@@ -128,4 +128,4 @@
     .sub-title {
         width: 100%;
     }
-} */
+}
