@@ -3,8 +3,8 @@
     overflow: hidden;
     position: relative;
     display: inline-block;
-    background-color: rgba(244, 241, 235, 255);
-
+    background: rgb(244,241,235);
+    background: linear-gradient(90deg, rgba(244,241,235,1) 0%, rgba(246,235,220,1) 67%, rgba(244,241,235,1) 100%);
 }
 
 .text-wrapper {
