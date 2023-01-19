@@ -51,6 +51,7 @@
     left: 50%;
     padding: 0.5em;
     transform: translateX(-50%);
+    border-bottom: 3px solid black;
 }
 
 @media screen and (max-width: 1107px) {
