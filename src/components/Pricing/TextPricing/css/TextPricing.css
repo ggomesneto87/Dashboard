@@ -1,0 +1,38 @@
+/* WRAPPERS */
+
+.pricing-top-wrapper {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ----- */
+
+/* GENERAL */
+
+.title-pricing {
+  padding-bottom: 20px;
+  font-size: 300%;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1em;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sub-title-pricing {
+  width: 100%;
+  line-height: 1.4em;
+  color: rgb(129, 129, 129);
+  font-size: 90%;
+  font-family: 'Sofia Sans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ----- */
+
+/*RESPONSIVE*/
