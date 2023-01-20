@@ -20,6 +20,7 @@ const Menu = () => {
     links.push(
       <NavLink to={items[i][1]} style={{ textDecoration: "none" }}>
         {" "}
+
         <div className="menu-link">{items[i][0]}</div>
       </NavLink>
     );
