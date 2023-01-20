@@ -3,12 +3,23 @@ import React from "react";
 import "./css/Menu.css";
 import logo from "../Images/logo-no-bd.png";
 
+import { NavLink } from "react-router-dom";
+
 const Menu = () => {
-  const items = ["Product", "Pricing", "Documentation"];
+  const items = [
+    ["Product", "/product"],
+    ["Pricing", "/pricing"],
+    ["Documentation", "/documentation"],
+  ];
   let links = [];
 
   for (let i = 0; i < items.length; i++) {
-    links.push(<div className="menu-link">{items[i]}</div>);
+    links.push(
+      <NavLink to={items[i][1]}>
+        {" "}
+        <div className="menu-link">{items[i][0]}</div>
+      </NavLink>
+    );
   }
 
   return (

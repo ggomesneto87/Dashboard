@@ -1,12 +1,11 @@
 import "./App.css";
 
-import Landing from "./components/Landing/Landing";
-import Pricing from "./components/Pricing/Pricing";
+import RouteMap from "./RouteMap";
 
 function App() {
   return (
     <div className="App">
-      <Pricing />
+      <RouteMap />
     </div>
   );
 }
