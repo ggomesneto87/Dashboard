@@ -31,7 +31,9 @@
 .menu-link, .signIn, .logo-wrapper {
     font-family: 'Sofia Sans', sans-serif;
     font-weight: 300;
-    font-size: medium
+    font-size: medium;
+    text-decoration: none;
+    color: black;
 }
 
 .logo-img {
@@ -73,9 +75,16 @@
 .menu-link:hover {
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none
 }
 
 .sign-in:hover {
     border: 2px solid grey;
     cursor: pointer;
+}
+
+@media screen and (max-width: 625px) {
+    .link-wrapper {
+        display: none;
+    }
 }

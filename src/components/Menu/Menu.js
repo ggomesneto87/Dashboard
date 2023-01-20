@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./css/Menu.css";
 import logo from "../Images/logo-no-bd.png";
 
 import { NavLink } from "react-router-dom";
 
+import Burger from "./Burger";
+
 const Menu = () => {
+  const [open, setOpen] = useState(false);
   const items = [
     ["Product", "/product"],
     ["Pricing", "/pricing"],
@@ -15,10 +18,7 @@ const Menu = () => {
 
   for (let i = 0; i < items.length; i++) {
     links.push(
-      <NavLink
-        to={items[i][1]}
-        style={{ textDecoration: "none", color: "black" }}
-      >
+      <NavLink to={items[i][1]} style={{ textDecoration: "none" }}>
         {" "}
         <div className="menu-link">{items[i][0]}</div>
       </NavLink>
@@ -34,6 +34,12 @@ const Menu = () => {
       </div>
       <div className="sign-in">Sign Up</div>
       <div className="link-wrapper">{links}</div>
+      <i
+        className="fa-solid fa-bars hamburger-icon fa-2xl"
+        open={open}
+        onClick={() => setOpen(!open)}
+      ></i>
+      <Burger open={open} />
     </div>
   );
 };
