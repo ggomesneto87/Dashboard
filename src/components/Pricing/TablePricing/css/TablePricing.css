@@ -1,4 +1,4 @@
-
+/*WRAPERS*/
 
 .pricing-bot-wrapper {
   width: 100%;
@@ -6,8 +6,9 @@
 }
 
 .table-wrapper {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  align-items: center;
+  
 }
 
 .table-products-wrapper {
@@ -19,25 +20,51 @@
 
 }
 
+/* ----- */
+
+/* GENERAL ITEMS */
+
+
 .table-link {
   width: 20%;
-  height: 60%;
-  font-size:larger;
+
+  margin: 0;
+  padding: 0;
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
-  background-color: rgb(22, 66, 91);
+  background-color: white;
   border-radius: 5%;
 }
 
+.table-link li {
+  list-style: none;
+  display: inline-block;
+  justify-content: center;
+  
+}
+
+.fa-solid {
+  padding-right: 10px;
+  color: rgb(87, 174, 245);
+}
+
+.table-link li p {
+  font-size: 12px;
+}
+
 .gs-btn {
+    display: flex;  
     align-items: center;
     justify-content: center;
+    margin: auto;
     font-family: 'Noto Sans', sans-serif;
     background-color: #368F8B;
-    width: 50%;
-    height: 10%;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
     border-radius: 5px;
     color: #F4F1EB;
     font-weight: bolder;
     border-bottom: 3px solid black;
+    border-right: 1px solid black;
 }

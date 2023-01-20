@@ -22,6 +22,7 @@ const Plan = (productInfo) => {
       <ul className="table-link">
         <li>
           <h2>{productInfo[i].name}</h2>
+          <h1>$199,90</h1>
           {features[i]}
           <div className="gs-btn">Get Started</div>
         </li>
