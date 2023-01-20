@@ -27,6 +27,7 @@
 /* ----- */
 
 /* General Info */
+
 .menu-link, .signIn, .logo-wrapper {
     font-family: 'Sofia Sans', sans-serif;
     font-weight: 300;
@@ -62,7 +63,7 @@
     right: 5px;
     top: 50%;
     transform: translateY(-50%);
-    padding: 1vw;
+    padding: 10px;
     border-radius: 10px;
     font-weight: bold;
 }
