@@ -28,9 +28,8 @@ const Menu = () => {
   return (
     <div className="menu-wrapper">
       <div className="logo-wrapper">
-        <img src={logo} className="logo-img"></img>
         <NavLink to="/" style={{ textDecoration: "none", color: "black" }}>
-          <span className="logo-name">Dashboard</span>
+          <img src={logo} className="logo-img"></img>
         </NavLink>
       </div>
       <div className="sign-in">Sign Up</div>
