@@ -29,7 +29,7 @@ h2 {
   height: 100%;
   margin: 0;
   padding: 5px 0;
-  background-color: rgb(155, 162, 255);
+  background-color: #3F612D;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -43,9 +43,9 @@ h1 {
 
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: bold;
-  background-color: rgb(22, 66, 124);
+  font-family: 'Signika', sans-serif;
+  font-weight: 300;
+  background-color: #6AB547;
   border-radius: 5%;
 }
 
@@ -54,6 +54,7 @@ h1 {
   list-style: none;
   display: inline-block;
   justify-content: center;
+  color:white
   
 }
 
